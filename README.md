@@ -22,7 +22,7 @@ For more information see:
 
 Running the executable
 ----------------------
-To run the command line game, first install the gem and then type:
+To run the command line interface, first install the gem and then type:
 ```bash
 > subreddit
 ```
