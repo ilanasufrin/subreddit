@@ -2,21 +2,21 @@ require 'mechanize'
 
 class Subreddit
 
-def random_subreddit
+  def random_subreddit
 
-mechanize = Mechanize.new
+    mechanize = Mechanize.new
 
-page = mechanize.get('http://www.reddit.com/')
+    page = mechanize.get('http://www.reddit.com/')
 
-link = page.link_with(text: 'random subreddit')
+    link = page.link_with(text: 'random subreddit')
 
-page = link.click
-
-
-puts page.uri
+    page = link.click
 
 
-end
+    puts page.uri
+
+
+  end
 
 
 
